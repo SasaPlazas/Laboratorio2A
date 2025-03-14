@@ -24,6 +24,8 @@ class pequeño extends HTMLElement {
 
 		
 			  <div class="the-pequeño">
+			  <link rel="stylesheet" href="./contenedores/pequeños/pequeños.css>
+			  
             <img src="${this.getAttribute('img')}" 
                  alt="${this.getAttribute('alt')}">
             <h1>${this.getAttribute('title') }</h1>

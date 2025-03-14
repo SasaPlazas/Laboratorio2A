@@ -21,6 +21,7 @@ class mediano extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
+	<link rel="stylesheet" href="./contenedores/medianos/medianos.css>
 	
 		  <div class="the-mediano">
             <img src="${this.getAttribute('img')}" 

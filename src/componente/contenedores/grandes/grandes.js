@@ -21,7 +21,7 @@ class Grande extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-			
+			 <link rel="stylesheet" href="./contenedores/grandes/grandes.css>
        
                <div class="the-grande">
             <img src="${this.getAttribute('img')}" 
@@ -50,5 +50,4 @@ document.head.appendChild(grandeStyle);
 
 
 
-
-//  <link rel="stylesheet" href="./contenedores/grandes/grande.css>
+//  <link rel="stylesheet" href="./contenedores/grandes/grandes.css>
