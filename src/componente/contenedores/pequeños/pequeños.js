@@ -22,10 +22,9 @@ class pequeño extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 
-		
+		 <link rel="stylesheet" href="./contenedores/pequeños/pequeños.css>
 			  <div class="the-pequeño">
-			  <link rel="stylesheet" href="./contenedores/pequeños/pequeños.css>
-			  
+	
             <img src="${this.getAttribute('img')}" 
                  alt="${this.getAttribute('alt')}">
             <h1>${this.getAttribute('title') }</h1>

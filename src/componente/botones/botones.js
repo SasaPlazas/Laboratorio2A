@@ -39,3 +39,4 @@ class Botones extends HTMLElement{
 customElements.define('los-botones', Botones);
 
 export default Botones;
+
