@@ -1,0 +1,17 @@
+.icon svg {
+    width: 18px;  
+    height: 18px;
+    fill: currentColor;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; 
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(214, 212, 212)
+}
