@@ -1,0 +1,48 @@
+.comment {
+    background-color: #ffffff; 
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(41, 23, 23);
+    max-width: 500px;
+    align-items: flex-start;
+}
+
+.comment h3 {
+    color: #575353; 
+    font-size:  0.75rem;
+    margin-bottom: 5px;
+}
+
+.comment h2 {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.comment p {
+    font-size:0.875rem;
+    color: #4f5056;
+    margin-bottom: 0.35rem;
+}
+
+.comment h4 {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #4f5056;
+    margin-right: 10px;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.footer h4 {
+    margin: 0;
+    margin-top: 20px;
+}

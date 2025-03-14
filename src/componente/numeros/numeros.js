@@ -1,40 +1,35 @@
-class numbers extends HTMLElement {
-	static get observedAttributes() {
-		return ['number',];
-	}
+class Numbers extends HTMLElement {
+    static get observedAttributes() {
+        return ['number', 'active'];
+    }
 
-	constructor() {
-		super();
-		this.attachShadow({ mode: 'open' });
-	}
+    constructor() {
+        super();
+        this.attachShadow({ mode: 'open' });
+    }
 
-	connectedCallback() {
-		this.render();
-	}
+    connectedCallback() {
+        this.render();
+    }
 
-	attributeChangedCallback(propName, oldValue, newValue) {
-		if (oldValue !== newValue) {
-			this[propName] = newValue;
-			this.render();
-		}
-	}
+    attributeChangedCallback(propName, oldValue, newValue) {
+        if (oldValue !== newValue) {
+            this[propName] = newValue;
+            this.render();
+        }
+    }
 
-	render() {
-		this.shadowRoot.innerHTML = `
-			<div class="product-numbers">
-				p ${this.number}
-			</div>
-			style>
-				.product-numbers {
-					background-color: #f1f1f1;
-					border: 1px solid #ccc;
-					margin: 10px;
-					padding: 10px;
-					width: 100px;
-				}
-    `;
-	}
+    render() {
+        this.shadowRoot.innerHTML = `
+            <link rel="stylesheet" href="./styles/numbers.css">
+            <div class="product-numbers ${this.getAttribute('active') === 'true' ? 'active' : ''}">
+                ${this.getAttribute('number')}
+            </div>
+        `;
+    }
 }
 
-customElements.define('the-numbers', numbers);
-export default numbers;
+customElements.define('the-numbers', Numbers);
+export default Numbers;
+
+

@@ -1,0 +1,40 @@
+.search-container {
+    display: flex;
+    align-items: right;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px 20px;
+    max-width: 300px;
+    gap: 10px;
+  
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 3px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding:3px;
+    font-size: 11px;
+    width: 100%;
+}
+
+.search-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #333333;
+}
+
+.the-icons {
+    margin-left: 8px;
+    
+}
