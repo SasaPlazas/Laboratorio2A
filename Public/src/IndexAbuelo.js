@@ -21,6 +21,12 @@ class AppContainer extends HTMLElement{
 
     <style>
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+  *{
+  font-family: 'Inter', sans-serif;
+  }
+
  .app-container {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -28,7 +34,6 @@ class AppContainer extends HTMLElement{
           max-width: 1200px;
           margin: 0 auto;
           padding: 20px;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         .blog-header {
@@ -48,9 +53,10 @@ class AppContainer extends HTMLElement{
         }
 
         .blog-header h2 {
-          font-size: 1.2rem;
+          font-size: 0.875rem;
           color: rgb(95, 98, 105);
           margin-bottom: 25px; 
+          font-weight:normal;
 
         }
 
@@ -64,8 +70,8 @@ class AppContainer extends HTMLElement{
           gap: 10px;
           margin: 0 auto; 
           justify-content: flex-start;
-  
           
+
         }
 
         .search-container {
