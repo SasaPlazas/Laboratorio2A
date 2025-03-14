@@ -50,7 +50,8 @@ class AppContainer extends HTMLElement{
         .blog-header h2 {
           font-size: 1.2rem;
           color: rgb(95, 98, 105);
-          margin-bottom: 10px;
+          margin-bottom: 25px; 
+
         }
 
         .controls {
@@ -71,6 +72,7 @@ class AppContainer extends HTMLElement{
           display: flex;
           align-items: center;
           gap: 10px;
+
         }
 
         .latest {
@@ -98,9 +100,21 @@ class AppContainer extends HTMLElement{
         .barras{
         margin: auto;
         display: flex; 
-        text-aling: right; 
-        }
+        align-items: right;
+        justify-content: flex-end; 
+        gap: 10px; 
+        width: 100%;
+        max-width: 300px; 
+        margin-left: 330px;
 
+
+
+  .barras{
+  
+    margin-right:0 ;
+    max-width: 1200px;
+  
+  }
 </style>
      
 <div class="blog-header">

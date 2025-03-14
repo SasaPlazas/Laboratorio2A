@@ -29,7 +29,7 @@ class Search extends HTMLElement{
 
         this.shadowRoot.innerHTML= `
     
-            <link rel="stylesheet" href="./src/componente/search/search.css">
+           <link rel="stylesheet" href="./src/componente/search/search.css">
         <div class="search-container">
             <div class="search-box">
                 <span class="search-icon">
@@ -38,7 +38,10 @@ class Search extends HTMLElement{
                     </svg>
                 </span>
                 <input type="text" placeholder="${this.placeholder || 'Search...'}">
-          
+            </div>
+            
+        </div>
+                
         `
 
     }

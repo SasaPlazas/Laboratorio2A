@@ -30,8 +30,12 @@ class Coments extends HTMLElement {
                 <h3>${this.getAttribute('subtitle')}</h3>
                 <h2>${this.getAttribute('title')}</h2>
                 <p>${this.getAttribute('description')}</p>
-                <h4>${this.getAttribute('names')}</h4>
-                <h4>${this.getAttribute('date')}</h4>
+
+                <div class= "footer">
+                    <h4>${this.getAttribute('names')}</h4>
+                    <h4>${this.getAttribute('date')}</h4>
+                </div>
+                
             </div>
         `;
     }

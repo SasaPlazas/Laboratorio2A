@@ -30,3 +30,14 @@
     color: #4f5056;
     margin-right: 10px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer h4 {
+    margin: 0;
+}
