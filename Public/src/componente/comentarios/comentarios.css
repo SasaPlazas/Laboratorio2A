@@ -1,0 +1,32 @@
+.comment {
+    background-color: #ffffff; 
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(41, 23, 23);
+    max-width: 500px;
+}
+
+.comment h3 {
+    color: #575353; 
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.comment h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.comment p {
+    font-size: 1rem;
+    color: #4f5056;
+    margin-bottom: 15px;
+}
+
+.comment h4 {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #4f5056;
+    margin-right: 10px;
+}
