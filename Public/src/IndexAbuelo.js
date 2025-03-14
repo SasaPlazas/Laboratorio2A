@@ -121,12 +121,45 @@ class AppContainer extends HTMLElement{
     max-width: 1200px;
   
   }
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centra el texto del blog */
+}
+
+.the-containers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  grid-template-rows: auto;
+  gap: 20px;
+  max-width: 900px; /* Ajusta el ancho para que coincida con el título */
+  margin: 0 auto;
+}
+
+.the-grande {
+  grid-column: span 2; /* Ocupa dos columnas */
+}
+
+.the-mediano, .the-pequeño {
+  grid-column: span 1;
+}
+
 </style>
      
 <div class="blog-header">
     <h1>Blog</h1>
     <h2>Stay in the loop with the latest about our products</h2>
 </div>
+
+
+
 
 
 <div class="controls">
@@ -145,6 +178,9 @@ class AppContainer extends HTMLElement{
      <the-icons wifi="true"></the-icons>
     </div>
 
+
+
+    
 </div>
 
 <the-containers>
